@@ -1,6 +1,37 @@
+.gmp {
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  font-family: fantasy;
+  color: burlywood;
+  margin-top: 2%;
+}
+.mplayer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 37vh;
+}
+
+.otback {
+  display: flex;
+  position: absolute;
+}
+
 button {
   background-color: rgb(206, 129, 28);
   border-radius: 25%;
   border-color: aqua;
-  border-width: 1px;
+  border-width: 3px;
+}
+
+.otbuttons {
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  gap: 5%;
+  z-index: 2;
+  top: 27vh;
+  left: 41.25vw;
 }
